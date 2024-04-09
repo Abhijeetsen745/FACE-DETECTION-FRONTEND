@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main view</title>
+    <style>
+        .loader{
+            overflow:hidden;
+            width: 100vw;height: 100vh;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           animation: page 1s infinite;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+           animation: logo 5s ease-in-out infinite;
+          
+        }
+        @keyframes page {
+            0%{
+          /* background-color: blue; */
+          
+        }
+        25%{
+            /* background-color: rgb(0, 255, 64); */
+        
+        }
+        50%{
+          /* background-color: rgb(255, 0, 170); */
+        
+        }
+        75%{
+          background-color: rgb(0, 217, 255);
+          
+        }
+        100%{
+          background-color: rgba(0, 0, 0, 0.267);
+          /* transform: rotate(360deg); */
+          
+        }
+        }
+         
+     @keyframes logo {
+        0%{
+          /* background-color: blue; */
+          transform: scale(1);
+          transform: rotate(0);
+        }
+        25%{
+            /* background-color: rgb(0, 255, 64); */
+          transform: scale(1.5);
+          transform: rotate(90deg);
+        }
+        50%{
+          /* background-color: rgb(255, 0, 170); */
+          transform: scale(1.8);
+          transform: rotate(180deg);
+        }
+        75%{
+          background-color: rgb(0, 217, 255);
+          /* transform: scale(1.7); */
+          transform: rotate(250deg);
+        }
+        100%{
+          background-color: rgba(0, 0, 0, 0.267);
+          transform: scale(360deg);
+          
+        }
+     }
+        
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <img src="wallpaper.png" alt="loader">
+        </div>
+        <script>
+            window.onload=function(){
+                setTimeout(loadAfterTime,5000)
+            };
+            function loadAfterTime(){
+                window.open("webpage.html");
+            }
+        </script>
+</body>
+</html>

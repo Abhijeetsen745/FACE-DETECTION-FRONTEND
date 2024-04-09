@@ -1,0 +1,155 @@
+*{
+    padding: 0px;margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(14, 81, 156);
+    margin-left: 200px;
+}
+#A{
+    color: white;
+    font-size:100px;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.login{
+    height: 350px;
+    width: 350px;
+    padding: 30px;margin: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.425) ;
+    border-radius: 20px;
+}
+.first{
+    height: 480px;width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    width: 290px;
+    height: 30px;
+     background-color: rgba(0, 0, 0, 0.103);  border: none;
+ 
+}
+input[type="password"]{
+    width: 290px;
+    height: 30px;
+     background-color: rgba(0, 0, 0, 0.103);  border: none;
+}
+#btn{
+    width: 290px; height: 30px;
+    color: white;
+    background-color: rgb(14, 81, 156);
+    margin-top: 40px;
+}
+#fp{
+    font-size: 13px;text-decoration: none;
+}
+   
+ /* admin part */
+ header{
+    position: relative;
+    top: 10px;
+    height: 100px;
+      
+ }
+ 
+
+ .a li{
+    list-style: none;
+    display: inline;
+}
+.a li a{
+   text-decoration: none;
+}
+ .b li{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+ }
+ .b li a{
+    color: white;
+ }
+ .c li{
+    position: relative;
+    top: 30px;
+    padding: 5px;margin: 5px;
+    
+ }
+ #thr:hover{
+    transform: 2  ease-in infinite;
+    border-bottom: 5px solid black;
+    color: blue;opacity: 0.8;
+ }
+ #stnt:hover{
+    border-bottom: 5px solid black;
+    opacity: 0.8;
+ }
+ .c li a{
+    color:black;
+ }
+ .edit{
+    background-color: green;
+    padding: 5px ;margin: 10px;
+    color: white;
+    width: 100px;
+ }
+ .delete{
+    background-color: red;
+    padding: 5px ;margin: 10px;
+    color: white;
+    width: 100px;
+ }
+.add{
+    color: white;
+    background-color: rgb(14, 81, 156);
+    padding: 5px;
+    margin: 0px;
+}
+#ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+.content
+{
+    height: 500px;width:900px;
+    margin-top: 50px;
+    background-color: white;
+}
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;margin: 5px;
+}
+
+
+/* for student.. */
+.content1{
+    background-color:rgb(175, 214, 192);
+}
+.content2{
+    background-color: rgb(204, 166, 166);
+}
